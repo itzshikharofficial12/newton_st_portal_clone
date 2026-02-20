@@ -1,0 +1,141 @@
+.navbar {
+  width: 100%;
+  border-bottom: 1px solid #e6e6e6;
+  background-color: #fff;
+  padding: 8px 12px 8px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+
+}
+
+.navbar-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  margin: 6px 10px;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.nav-left button {
+  background: none;
+  border: 1.5px solid #d0d9e8;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  background: #fff;
+  padding: 10px 7px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  line-height: 1;
+}
+/* 
+.account-icon{
+  margin-top: 2px;
+} */
+
+.nav-left button h1 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #333;
+  margin-left: 8px;
+  margin-bottom: 2px;
+}
+
+.nav-left .athena {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background-color: #fff3d6;
+  border-radius: 24px;
+  padding: 8px 16px;
+}
+
+.nav-left .athena h1 {
+  font-size: 16px;
+  color: #333;
+}
+
+.nav-left .athena button {
+  background-color: #d17300;
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 24px;
+  cursor: pointer;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 34px;
+  background: #fff;
+}
+
+.nav-right .xp-section {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 6px 18px;
+  border: 1px solid #e6e6e6;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.nav-right .xp-section h1 {
+  font-size: 16px;
+  color: #16191d;
+}
+
+.xp-amount {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  border-radius: 2px;
+  padding: 2px 8px;
+}
+
+.xp-amount h1 {
+  font-size: 18px;
+  /* background-color: #fff3d6; */
+}
+
+.nav-right .account {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  background-color: #fff;
+  border-radius: 24px;
+  padding: 4px 12px 4px 18px;
+  position: relative;
+}
+
+.nav-right .account::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 6px;
+  bottom: 6px;
+  width: 1px;
+  background: #e6e6e6;
+}
+
+.account-icon {
+  font-size: 22px;
+  color: #333;
+}
+
+.account img {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+}
