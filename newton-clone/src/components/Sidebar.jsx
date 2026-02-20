@@ -1,4 +1,3 @@
-import React from 'react'
 import './sidebar.css'
 import { IoMdHome } from "react-icons/io";
 import { GoShield } from "react-icons/go";
@@ -14,27 +13,27 @@ import { BiSpreadsheet } from "react-icons/bi";
 const subjects = [
     {
         id: 1,
-        name: 'DSA - B',
+        name: 'DSA - C',
     },
     {
         id: 2,
-        name: 'DSA Lab 1 - B',
+        name: 'DSA Lab 1 - C',
     },
     {
         id: 3,
-        name: 'WAP - B',
+        name: 'WAP - C',
     },
     {
         id: 4,
-        name: 'WAP Lab 1 - B',
+        name: 'WAP Lab 1 - C',
     },
     {
         id: 5,
-        name: 'Maths II - B',
+        name: 'Maths II - C',
     },
     {
         id: 6,
-        name: 'Maths II Tut 1 - B',
+        name: 'Maths II Tut 1 - C',
     }
 ]
 

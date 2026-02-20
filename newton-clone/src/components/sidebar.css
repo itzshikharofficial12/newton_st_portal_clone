@@ -1,15 +1,14 @@
 .left-sidebar {
   width: 25vh;
   background-color: #fff;
-  height: calc(100vh - 56px);
-  border-right: 1px solid #e6e6e6;
+  height: calc(100vh - 71px);
+  border-right: 5px solid #c4c4c4;
   display: flex;
   flex-direction: column;
-  overflow: auto;
   position: fixed;
   top: 71px;
   left: 0;
-    margin-right: 10px;
+  margin-right: 10px;
 }
 
 .top {
@@ -17,7 +16,7 @@
   flex-direction: column;
   gap: 8px;
   border-bottom: 1px solid #e6e6e6;
-  padding: 1.5rem 1rem;
+  padding: 1.5rem 1rem 1.5rem 1.5rem;
 }
 .top h2 {
   font-size: 16px;
@@ -39,7 +38,8 @@
   gap: 18px;
   padding: 20px;
   background-color: #fff;
-  overflow: hidden;
+  overflow-y: auto;
+  flex: 1;
 }
 
 .home{
@@ -66,10 +66,11 @@
     display: flex;
     flex-direction: column;
     gap: 12px;
+    width: 160px;
 }
 
 .subjects h5{
-    font-size: 12px;
+    font-size: 11px;
     color: #333;
 }
 
@@ -82,7 +83,7 @@
     padding: 8px 12px;
 }
 .sub-list h3{
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 400;
     color: #333;
 }
@@ -96,21 +97,22 @@
 .link{
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 10px;
     background-color: #fff;
     border-radius: 12px;
-    padding: 10px 16px;
+    padding: 10px 10px;
     border: 1px solid #fff;
     color: #333;
+    width: 135px;
 }
 
 .link h2{
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 500;
 }
 
 .link .trend-icon{
-    font-size: 24px;
+    font-size: 15px;
     color: #333;
 }
 
