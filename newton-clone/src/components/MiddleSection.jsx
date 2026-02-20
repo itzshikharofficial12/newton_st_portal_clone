@@ -163,38 +163,6 @@ const MiddleSection = () => {
             </div>
           </div>
         </div>
-
-        <div className='section-block'>
-          <div className='footer-section'>
-            <div className='footer-left'>
-              <div className='footer-brand'>
-                <div className='footer-logo'>
-                  <svg>
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M2.17206 0H9.18393V2.01628H2.17206V4.89668L4.5187 4.89668H6.0987C7.56467 4.89668 8.91885 5.38818 10.0135 6.21947L14.1063 2.01628H10.8668V0H15.4946H17.4579V2.01628V6.76894H15.4946V3.44201L11.4018 7.6452C12.2113 8.76941 12.6899 10.1601 12.6899 11.6656L12.6899 16.7296L12.6899 19.7213C14.3873 18.4814 15.4946 16.4449 15.4946 14.1428V8.49718H17.4579V14.1428C17.4579 19.0345 13.5966 23 8.83333 23C4.0701 23 0.20874 19.0345 0.20874 14.1428V2.01628V0H2.17206ZM2.17206 14.1428V6.91296L4.5187 6.91296H6.0987C8.65458 6.91296 10.7265 9.0408 10.7265 11.6656L10.7265 16.7296L10.7265 20.7035C10.1264 20.8858 9.49102 20.9837 8.83333 20.9837C5.15442 20.9837 2.17206 17.9209 2.17206 14.1428Z" fill="#0673F9"></path>
-                  </svg>
-                  </div>
-                <div>
-                  <p className='footer-brand-name'>Newton School of Technology</p>
-                </div>
-              </div>
-              <p className='footer-copy'>Copyright © 2026 Incanus Technologies Pvt. Ltd. All rights reserved.</p>
-            </div>
-
-            <div className='footer-right'>
-              <p className='footer-link legal'><span>Legal</span></p>
-              <p className='footer-link'>Support</p>
-              <p className='footer-link'>Terms &amp; Conditions</p>
-              <p className='footer-link'>Privacy Policy</p>
-              <div className='footer-social-links'>
-                <FaFacebookF className='social-icon' />
-                <FaTwitter className='social-icon' />
-                <FaInstagram className='social-icon' />
-                <FaLinkedin className='social-icon' />
-                <FaYoutube className='social-icon' />
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   )

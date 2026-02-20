@@ -10,6 +10,10 @@
   left: 200px;
 }
 
+.main .main-content .section-block .latest-card-top .latest-icon .latest-text h2{
+  font-weight: bold;
+}
+
 .main-content {
   padding: 20px;
   display: flex;
@@ -61,6 +65,11 @@
   font-weight: 500;
   color: #111827;
 }
+
+.session-card-left .session-icon .session-text p{
+  color: black;
+}
+
 
 .latest-text p,
 .performance-card-title,
