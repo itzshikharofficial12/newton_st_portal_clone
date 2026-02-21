@@ -1,4 +1,3 @@
-import React from 'react'
 import './middlesection.css'
 import { IoIosTimer } from "react-icons/io";
 import AssingmentData from '../data/assingment-data'
@@ -8,13 +7,8 @@ import { LuTrophy } from "react-icons/lu";
 import { MdOutlineQuiz } from "react-icons/md";
 import { MdOutlinePeopleAlt } from "react-icons/md";
 import { IoReorderThreeOutline } from "react-icons/io5";
-import { FaFacebookF } from "react-icons/fa";
-import { FaTwitter } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
-import { FaYoutube } from "react-icons/fa";
-import Assingment from './assignment';
-
+import Assignment from './Assignment.jsx';
+// import AssingmentData from '../data/assingment-data';
 
 
 const MiddleSection = () => {
@@ -33,7 +27,7 @@ const MiddleSection = () => {
           </div>
           <div className='latest-assingment-list'>
             {AssingmentData.map((item, index) => {
-              return <Assingment
+              return <Assignment
                 key={index}
                 classType={item.classType}
                 subject={item.subject}
@@ -59,7 +53,7 @@ const MiddleSection = () => {
           </div>
           <div className='latest-assingment-list deadline-assingment'>
             {AssingmentData.filter((item) => item.is_pending).map((item, index) => {
-              return <Assingment    
+              return <Assignment    
                 key={index}
                 classType={item.classType}
                 subject={item.subject}
