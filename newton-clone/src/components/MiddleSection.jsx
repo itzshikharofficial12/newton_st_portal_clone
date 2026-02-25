@@ -74,7 +74,7 @@ const MiddleSection = () => {
             <div className='performance-banner'>
               <div className='performance-banner-left'>
                 <div className='performance-banner-icon'><BiSpreadsheet className='spreadsheet-icon' /></div>
-                <p><span>68 pending assignment questions</span>, solve them to boost your placement score.</p>
+                <p><span>150 pending assignment questions</span>, solve them to boost your placement score.</p>
               </div>
               <button className='performance-banner-btn'>MY ASSIGNMENTS</button>
             </div>
@@ -85,7 +85,7 @@ const MiddleSection = () => {
                   <div className='performance-card-icon'><MdLiveTv className='live-tv-icon' /></div>
                   <div className='performance-card-text'>
                     <p className='performance-card-title'>Lecture</p>
-                    <p className='performance-card-score'>74% <span>(59/79)</span></p>
+                    <p className='performance-card-score'>101% <span>(80/79)</span></p>
                   </div>
                 </div>
                 <div className='performance-card-arrow'>›</div>
